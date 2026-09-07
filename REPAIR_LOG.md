@@ -53,3 +53,12 @@ An automated Colab script was executed to mount Google Drive and recursively sea
 - **Smallest failed unit:** `RUNTIME_RECONNECT` / authenticated Colab access (before `PREPARE_ENVIRONMENT`).
 - **Repair boundary:** Do not run `Generate Video`; do not alter locked screenplay, causal graph, scene manifest, shot manifest, or prompt contract.
 - **Next action:** Provide an authenticated Google/Colab browser session and the R2 reference asset, then retry runtime reconnect and `Prepare Environment` once.
+
+## Colab setup checkpoint — 2026-09-07T21:11:30.136454+00:00
+
+- **Runtime:** Connected to Python 3 Google Compute Engine backend (GPU), reported RAM 12.67 GB and disk 112.64 GB.
+- **Cell:** `Prepare Environment` is executing; output shows PyTorch/CUDA package installation and replacement.
+- **Observed status:** `Waiting to finish the current execution`; no `Environment Setup Complete!` marker yet.
+- **Generation status:** `Generate Video` has not been run. No MP4, ffprobe evidence, or checksum exists.
+- **State:** Remains `ASSET_GENERATION_BLOCKED`; do not transition to `ASSET_QC`.
+- **Next action:** Wait for this same setup cell to finish; classify as `SETUP_PASS` only if the completion marker appears, otherwise record `SETUP_STALL`/traceback.

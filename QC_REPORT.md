@@ -26,3 +26,12 @@ Final render and final audit must remain blocked until Drive is mounted and the 
 ## Handover execution check — 2026-09-07T20:10:34.880792+00:00
 
 The locked manifests were validated locally: 19 scenes, 76 shots, and 600 seconds total. The designated Colab route could not enter runtime because Google authentication was required in the available sandbox browser. The designated R2 reference file was not present locally. Therefore generation, video technical QC, audio, edit assembly, and master QC remain **NOT RUN/BLOCKED**.
+
+## Colab setup checkpoint — 2026-09-07T21:11:30.136454+00:00
+
+- **Runtime:** Connected to Python 3 Google Compute Engine backend (GPU), reported RAM 12.67 GB and disk 112.64 GB.
+- **Cell:** `Prepare Environment` is executing; output shows PyTorch/CUDA package installation and replacement.
+- **Observed status:** `Waiting to finish the current execution`; no `Environment Setup Complete!` marker yet.
+- **Generation status:** `Generate Video` has not been run. No MP4, ffprobe evidence, or checksum exists.
+- **State:** Remains `ASSET_GENERATION_BLOCKED`; do not transition to `ASSET_QC`.
+- **Next action:** Wait for this same setup cell to finish; classify as `SETUP_PASS` only if the completion marker appears, otherwise record `SETUP_STALL`/traceback.
