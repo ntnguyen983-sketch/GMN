@@ -19,13 +19,15 @@
     "Primary and fallback tools were selected from observed session capabilities.",
     "No premise, causal chain, narrative order, or ending was changed.",
     "Reference assets regenerated as continuity revision R2 from locked character/world/screenplay documents; locked story and manifests were not changed.",
-    "Current Colab T4 kernel is connected but Drive is not mounted: DRIVE_EXISTS=False; the Drive bypass stopped before copy/inference."
+    "Current Colab T4 kernel is connected but Drive is not mounted: DRIVE_EXISTS=False; the Drive bypass stopped before copy/inference.",
+    "Handover execution check 2026-09-07T20:10:34.880792+00:00: Colab showed Google sign-in required; no generation was started and no MP4 evidence exists."
   ],
   "video_generation_available": false,
   "reference_art_generated": true,
   "reference_continuity_revision": "R2",
   "blockers": [
     "Primary Manus video generation unavailable on current plan; preview rejected before MP4 creation.",
-    "Colab fallback runtime connected but the current kernel has no mounted Drive; visual-target.png was not found and no MP4 evidence exists."
+    "Colab fallback runtime connected but the current kernel has no mounted Drive; visual-target.png was not found and no MP4 evidence exists.",
+    "Current Colab route requires Google authentication in the available browser; R2 visual-target.png is also unavailable in the current sandbox, so runtime reconnect and reference upload cannot proceed."
   ]
 }
