@@ -1,0 +1,45 @@
+{
+  "project": "THE_WAR_OF_AI",
+  "version": "1.0",
+  "status": "ASSET_QC_PENDING",
+  "assets": [
+    {
+      "asset_id": "AST-REF-VISUAL-001",
+      "type": "image",
+      "source_tool": "manus-tools.generate_image",
+      "scene_id": "SC-01",
+      "shot_id": null,
+      "version": 1,
+      "status": "GENERATED",
+      "dependencies": [],
+      "local_path": "/home/ubuntu/webdev-static-assets/the-war-of-ai/visual-target.png"
+    },
+    {
+      "asset_id": "AST-REF-CHAR-001",
+      "type": "image",
+      "source_tool": "manus-tools.generate_image",
+      "scene_id": "SC-01",
+      "shot_id": null,
+      "version": 1,
+      "status": "GENERATED",
+      "dependencies": [
+        "CHARACTER_BIBLE.md"
+      ],
+      "local_path": "/home/ubuntu/webdev-static-assets/the-war-of-ai/character-sheet.png"
+    },
+    {
+      "asset_id": "AST-REF-WORLD-001",
+      "type": "image",
+      "source_tool": "manus-tools.generate_image",
+      "scene_id": "SC-01",
+      "shot_id": null,
+      "version": 1,
+      "status": "GENERATED",
+      "dependencies": [
+        "WORLD_BIBLE.md"
+      ],
+      "local_path": "/home/ubuntu/webdev-static-assets/the-war-of-ai/world-sheet.png"
+    }
+  ],
+  "generation_blocker": "Video generation tool rejected preview: user does not have access; upgrade to Basic, Plus or Pro."
+}

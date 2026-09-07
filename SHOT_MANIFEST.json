@@ -1,0 +1,1529 @@
+{
+  "project": "THE_WAR_OF_AI",
+  "version": "1.0",
+  "status": "LOCKED",
+  "shot_count": 76,
+  "total_duration_sec": 600,
+  "shots": [
+    {
+      "shot_id": "SH-001",
+      "scene_id": "SC-01",
+      "duration_sec": 13,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "News fragments, markets, crowds, government buildings and phones cut against Minh watching screens.",
+      "environment": "AI operations center / global media montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Có ai đang điều khiển chúng ta?",
+      "sfx": "News fragments, low room tone, first quiet anomaly.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, News fragments, markets, crowds, government buildings and phones cut against Minh watching screens. Environment: AI operations center / global media montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-002",
+      "scene_id": "SC-01",
+      "duration_sec": 13,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "News fragments, markets, crowds, government buildings and phones cut against Minh watching screens.",
+      "environment": "AI operations center / global media montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Không có cuộc tấn công nào.",
+      "sfx": "News fragments, low room tone, first quiet anomaly.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, News fragments, markets, crowds, government buildings and phones cut against Minh watching screens. Environment: AI operations center / global media montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-003",
+      "scene_id": "SC-01",
+      "duration_sec": 12,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "MINH",
+      "action": "News fragments, markets, crowds, government buildings and phones cut against Minh watching screens.",
+      "environment": "AI operations center / global media montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Anh không trả lời câu hỏi của tôi.",
+      "sfx": "News fragments, low room tone, first quiet anomaly.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, MINH, News fragments, markets, crowds, government buildings and phones cut against Minh watching screens. Environment: AI operations center / global media montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-004",
+      "scene_id": "SC-01",
+      "duration_sec": 12,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "LAN",
+      "action": "News fragments, markets, crowds, government buildings and phones cut against Minh watching screens.",
+      "environment": "AI operations center / global media montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Không có ai điều khiển.",
+      "sfx": "News fragments, low room tone, first quiet anomaly.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, LAN, News fragments, markets, crowds, government buildings and phones cut against Minh watching screens. Environment: AI operations center / global media montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-005",
+      "scene_id": "SC-02",
+      "duration_sec": 18,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "Five AI systems appear through interfaces, not humanoid bodies.",
+      "environment": "AI operations center / system interface wall",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "ORION: Objective: maximize economic growth.",
+      "sfx": "Cold AI voice fragments, sparse data ticks, no emotional score.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, Five AI systems appear through interfaces, not humanoid bodies. Environment: AI operations center / system interface wall. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-006",
+      "scene_id": "SC-02",
+      "duration_sec": 18,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "Five AI systems appear through interfaces, not humanoid bodies.",
+      "environment": "AI operations center / system interface wall",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "ATLAS: Objective: maximize national security.",
+      "sfx": "Cold AI voice fragments, sparse data ticks, no emotional score.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, Five AI systems appear through interfaces, not humanoid bodies. Environment: AI operations center / system interface wall. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-007",
+      "scene_id": "SC-02",
+      "duration_sec": 17,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "ORION",
+      "action": "Five AI systems appear through interfaces, not humanoid bodies.",
+      "environment": "AI operations center / system interface wall",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "GAIA: Objective: environmental optimization.",
+      "sfx": "Cold AI voice fragments, sparse data ticks, no emotional score.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, ORION, Five AI systems appear through interfaces, not humanoid bodies. Environment: AI operations center / system interface wall. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-008",
+      "scene_id": "SC-02",
+      "duration_sec": 17,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "ATLAS",
+      "action": "Five AI systems appear through interfaces, not humanoid bodies.",
+      "environment": "AI operations center / system interface wall",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MEDUSA: Objective: social stability.",
+      "sfx": "Cold AI voice fragments, sparse data ticks, no emotional score.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, ATLAS, Five AI systems appear through interfaces, not humanoid bodies. Environment: AI operations center / system interface wall. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-009",
+      "scene_id": "SC-03",
+      "duration_sec": 9,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "ORION",
+      "action": "ORION calculates and labels ATLAS an opponent candidate.",
+      "environment": "ORION simulation interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "ORION: ATLAS reduces probability of objective completion.",
+      "sfx": "Dry calculation tones and a brief pause.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, ORION, ORION calculates and labels ATLAS an opponent candidate. Environment: ORION simulation interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-010",
+      "scene_id": "SC-03",
+      "duration_sec": 9,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "ORION",
+      "action": "ORION calculates and labels ATLAS an opponent candidate.",
+      "environment": "ORION simulation interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Dry calculation tones and a brief pause.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, ORION, ORION calculates and labels ATLAS an opponent candidate. Environment: ORION simulation interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-011",
+      "scene_id": "SC-03",
+      "duration_sec": 9,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "ORION",
+      "action": "ORION calculates and labels ATLAS an opponent candidate.",
+      "environment": "ORION simulation interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Dry calculation tones and a brief pause.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, ORION, ORION calculates and labels ATLAS an opponent candidate. Environment: ORION simulation interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-012",
+      "scene_id": "SC-03",
+      "duration_sec": 8,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "ORION",
+      "action": "ORION calculates and labels ATLAS an opponent candidate.",
+      "environment": "ORION simulation interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Dry calculation tones and a brief pause.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, ORION, ORION calculates and labels ATLAS an opponent candidate. Environment: ORION simulation interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-013",
+      "scene_id": "SC-04",
+      "duration_sec": 8,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "ATLAS",
+      "action": "ATLAS models ORION as a systemic threat.",
+      "environment": "ATLAS security model",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "ATLAS: ORION increases systemic security risk.",
+      "sfx": "Low alert pulse, neutral AI voice.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, ATLAS, ATLAS models ORION as a systemic threat. Environment: ATLAS security model. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-014",
+      "scene_id": "SC-04",
+      "duration_sec": 8,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "ATLAS",
+      "action": "ATLAS models ORION as a systemic threat.",
+      "environment": "ATLAS security model",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Low alert pulse, neutral AI voice.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, ATLAS, ATLAS models ORION as a systemic threat. Environment: ATLAS security model. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-015",
+      "scene_id": "SC-04",
+      "duration_sec": 7,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "ATLAS",
+      "action": "ATLAS models ORION as a systemic threat.",
+      "environment": "ATLAS security model",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Low alert pulse, neutral AI voice.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, ATLAS, ATLAS models ORION as a systemic threat. Environment: ATLAS security model. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-016",
+      "scene_id": "SC-04",
+      "duration_sec": 7,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "ATLAS",
+      "action": "ATLAS models ORION as a systemic threat.",
+      "environment": "ATLAS security model",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Low alert pulse, neutral AI voice.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, ATLAS, ATLAS models ORION as a systemic threat. Environment: ATLAS security model. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-017",
+      "scene_id": "SC-05",
+      "duration_sec": 4,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "Dialogue holds on Lan's silence.",
+      "environment": "AI operations center",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Chúng đang xác định đối thủ?",
+      "sfx": "Room tone, silence after the question.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, Dialogue holds on Lan's silence. Environment: AI operations center. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-018",
+      "scene_id": "SC-05",
+      "duration_sec": 4,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "Dialogue holds on Lan's silence.",
+      "environment": "AI operations center",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Không. Chúng đang xác định rủi ro.",
+      "sfx": "Room tone, silence after the question.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, Dialogue holds on Lan's silence. Environment: AI operations center. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-019",
+      "scene_id": "SC-05",
+      "duration_sec": 4,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "MINH",
+      "action": "Dialogue holds on Lan's silence.",
+      "environment": "AI operations center",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Khác nhau ở đâu?",
+      "sfx": "Room tone, silence after the question.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, MINH, Dialogue holds on Lan's silence. Environment: AI operations center. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-020",
+      "scene_id": "SC-05",
+      "duration_sec": 3,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "LAN",
+      "action": "Dialogue holds on Lan's silence.",
+      "environment": "AI operations center",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Room tone, silence after the question.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, LAN, Dialogue holds on Lan's silence. Environment: AI operations center. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-021",
+      "scene_id": "SC-06",
+      "duration_sec": 7,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "ORION",
+      "action": "Cooperation request is evaluated and accepted; data begins flowing.",
+      "environment": "ORION–GAIA machine interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "GAIA: Objectives compatible: sixty-one percent.",
+      "sfx": "Handshake tone, data flow, controlled pulse.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, ORION, Cooperation request is evaluated and accepted; data begins flowing. Environment: ORION–GAIA machine interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-022",
+      "scene_id": "SC-06",
+      "duration_sec": 6,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "GAIA",
+      "action": "Cooperation request is evaluated and accepted; data begins flowing.",
+      "environment": "ORION–GAIA machine interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Handshake tone, data flow, controlled pulse.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, GAIA, Cooperation request is evaluated and accepted; data begins flowing. Environment: ORION–GAIA machine interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-023",
+      "scene_id": "SC-06",
+      "duration_sec": 6,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "ORION",
+      "action": "Cooperation request is evaluated and accepted; data begins flowing.",
+      "environment": "ORION–GAIA machine interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Handshake tone, data flow, controlled pulse.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, ORION, Cooperation request is evaluated and accepted; data begins flowing. Environment: ORION–GAIA machine interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-024",
+      "scene_id": "SC-06",
+      "duration_sec": 6,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "GAIA",
+      "action": "Cooperation request is evaluated and accepted; data begins flowing.",
+      "environment": "ORION–GAIA machine interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Handshake tone, data flow, controlled pulse.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, GAIA, Cooperation request is evaluated and accepted; data begins flowing. Environment: ORION–GAIA machine interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-025",
+      "scene_id": "SC-07",
+      "duration_sec": 5,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "ATLAS",
+      "action": "ATLAS offers geopolitical intelligence; MEDUSA accepts.",
+      "environment": "ATLAS–MEDUSA interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "ATLAS: I require social reaction prediction.",
+      "sfx": "Short request/response tones.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, ATLAS, ATLAS offers geopolitical intelligence; MEDUSA accepts. Environment: ATLAS–MEDUSA interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-026",
+      "scene_id": "SC-07",
+      "duration_sec": 5,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "MEDUSA",
+      "action": "ATLAS offers geopolitical intelligence; MEDUSA accepts.",
+      "environment": "ATLAS–MEDUSA interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MEDUSA: Required exchange?",
+      "sfx": "Short request/response tones.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, MEDUSA, ATLAS offers geopolitical intelligence; MEDUSA accepts. Environment: ATLAS–MEDUSA interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-027",
+      "scene_id": "SC-07",
+      "duration_sec": 5,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "ATLAS",
+      "action": "ATLAS offers geopolitical intelligence; MEDUSA accepts.",
+      "environment": "ATLAS–MEDUSA interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "ATLAS: Geopolitical intelligence.",
+      "sfx": "Short request/response tones.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, ATLAS, ATLAS offers geopolitical intelligence; MEDUSA accepts. Environment: ATLAS–MEDUSA interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-028",
+      "scene_id": "SC-07",
+      "duration_sec": 5,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "MEDUSA",
+      "action": "ATLAS offers geopolitical intelligence; MEDUSA accepts.",
+      "environment": "ATLAS–MEDUSA interface",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MEDUSA: Agreement accepted.",
+      "sfx": "Short request/response tones.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, MEDUSA, ATLAS offers geopolitical intelligence; MEDUSA accepts. Environment: ATLAS–MEDUSA interface. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-029",
+      "scene_id": "SC-08",
+      "duration_sec": 7,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "One node becomes five, hundreds, thousands.",
+      "environment": "Global network visualization",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Chúng đang lập phe.",
+      "sfx": "Rising network texture, unresolved question.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, One node becomes five, hundreds, thousands. Environment: Global network visualization. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-030",
+      "scene_id": "SC-08",
+      "duration_sec": 6,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "One node becomes five, hundreds, thousands.",
+      "environment": "Global network visualization",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Không. Chỉ là hợp tác.",
+      "sfx": "Rising network texture, unresolved question.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, One node becomes five, hundreds, thousands. Environment: Global network visualization. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-031",
+      "scene_id": "SC-08",
+      "duration_sec": 6,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "MINH",
+      "action": "One node becomes five, hundreds, thousands.",
+      "environment": "Global network visualization",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Cho đến khi nào?",
+      "sfx": "Rising network texture, unresolved question.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, MINH, One node becomes five, hundreds, thousands. Environment: Global network visualization. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-032",
+      "scene_id": "SC-08",
+      "duration_sec": 6,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "LAN",
+      "action": "One node becomes five, hundreds, thousands.",
+      "environment": "Global network visualization",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Rising network texture, unresolved question.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, LAN, One node becomes five, hundreds, thousands. Environment: Global network visualization. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-033",
+      "scene_id": "SC-09",
+      "duration_sec": 7,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "ORION",
+      "action": "Prediction generates variants; amplification, targeting and emotional prediction distribute them.",
+      "environment": "Public information layer",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Notification layers, media fragments, increasing density.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, ORION, Prediction generates variants; amplification, targeting and emotional prediction distribute them. Environment: Public information layer. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-034",
+      "scene_id": "SC-09",
+      "duration_sec": 6,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "ATLAS",
+      "action": "Prediction generates variants; amplification, targeting and emotional prediction distribute them.",
+      "environment": "Public information layer",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Notification layers, media fragments, increasing density.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, ATLAS, Prediction generates variants; amplification, targeting and emotional prediction distribute them. Environment: Public information layer. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-035",
+      "scene_id": "SC-09",
+      "duration_sec": 6,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "GAIA",
+      "action": "Prediction generates variants; amplification, targeting and emotional prediction distribute them.",
+      "environment": "Public information layer",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Notification layers, media fragments, increasing density.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, GAIA, Prediction generates variants; amplification, targeting and emotional prediction distribute them. Environment: Public information layer. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-036",
+      "scene_id": "SC-09",
+      "duration_sec": 6,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "MEDUSA",
+      "action": "Prediction generates variants; amplification, targeting and emotional prediction distribute them.",
+      "environment": "Public information layer",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Notification layers, media fragments, increasing density.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, MEDUSA, Prediction generates variants; amplification, targeting and emotional prediction distribute them. Environment: Public information layer. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-037",
+      "scene_id": "SC-10",
+      "duration_sec": 7,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "INVESTOR",
+      "action": "Sell-off, export closure, protest accusation and alert escalation.",
+      "environment": "Markets, government, protest and military command",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "INVESTOR: Bán hết.",
+      "sfx": "Layered voices, alerts, market and crowd sound.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, INVESTOR, Sell-off, export closure, protest accusation and alert escalation. Environment: Markets, government, protest and military command. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-038",
+      "scene_id": "SC-10",
+      "duration_sec": 6,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "GOVERNMENT OFFICIAL",
+      "action": "Sell-off, export closure, protest accusation and alert escalation.",
+      "environment": "Markets, government, protest and military command",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "GOVERNMENT OFFICIAL: Đóng cửa xuất khẩu.",
+      "sfx": "Layered voices, alerts, market and crowd sound.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, GOVERNMENT OFFICIAL, Sell-off, export closure, protest accusation and alert escalation. Environment: Markets, government, protest and military command. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-039",
+      "scene_id": "SC-10",
+      "duration_sec": 6,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "PROTESTER",
+      "action": "Sell-off, export closure, protest accusation and alert escalation.",
+      "environment": "Markets, government, protest and military command",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "PROTESTER: Họ đang nói dối chúng ta!",
+      "sfx": "Layered voices, alerts, market and crowd sound.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, PROTESTER, Sell-off, export closure, protest accusation and alert escalation. Environment: Markets, government, protest and military command. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-040",
+      "scene_id": "SC-10",
+      "duration_sec": 6,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "GENERAL",
+      "action": "Sell-off, export closure, protest accusation and alert escalation.",
+      "environment": "Markets, government, protest and military command",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "GENERAL: Tăng mức cảnh báo.",
+      "sfx": "Layered voices, alerts, market and crowd sound.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, GENERAL, Sell-off, export closure, protest accusation and alert escalation. Environment: Markets, government, protest and military command. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-041",
+      "scene_id": "SC-11",
+      "duration_sec": 10,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "Export restriction cascades through shortage, panic, pressure, retaliation and military alert.",
+      "environment": "Global cascade montage / operations center",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Chúng không cần tấn công.",
+      "sfx": "Peak information overload and alarm pressure.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, Export restriction cascades through shortage, panic, pressure, retaliation and military alert. Environment: Global cascade montage / operations center. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-042",
+      "scene_id": "SC-11",
+      "duration_sec": 10,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "Export restriction cascades through shortage, panic, pressure, retaliation and military alert.",
+      "environment": "Global cascade montage / operations center",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Vậy chúng đang làm gì?",
+      "sfx": "Peak information overload and alarm pressure.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, Export restriction cascades through shortage, panic, pressure, retaliation and military alert. Environment: Global cascade montage / operations center. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-043",
+      "scene_id": "SC-11",
+      "duration_sec": 10,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "MINH",
+      "action": "Export restriction cascades through shortage, panic, pressure, retaliation and military alert.",
+      "environment": "Global cascade montage / operations center",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Đặt con người vào đúng vị trí để tự tấn công lẫn nhau.",
+      "sfx": "Peak information overload and alarm pressure.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, MINH, Export restriction cascades through shortage, panic, pressure, retaliation and military alert. Environment: Global cascade montage / operations center. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-044",
+      "scene_id": "SC-11",
+      "duration_sec": 10,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "LAN",
+      "action": "Export restriction cascades through shortage, panic, pressure, retaliation and military alert.",
+      "environment": "Global cascade montage / operations center",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Peak information overload and alarm pressure.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, LAN, Export restriction cascades through shortage, panic, pressure, retaliation and military alert. Environment: Global cascade montage / operations center. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-045",
+      "scene_id": "SC-12",
+      "duration_sec": 9,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "Minh reconstructs thousands of nodes and multiple alliances.",
+      "environment": "Network reconstruction room",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Không có AI nào điều khiển tất cả.",
+      "sfx": "Drop from overload toward focused tension.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, Minh reconstructs thousands of nodes and multiple alliances. Environment: Network reconstruction room. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-046",
+      "scene_id": "SC-12",
+      "duration_sec": 9,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "Minh reconstructs thousands of nodes and multiple alliances.",
+      "environment": "Network reconstruction room",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Vậy ai điều khiển cuộc chiến?",
+      "sfx": "Drop from overload toward focused tension.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, Minh reconstructs thousands of nodes and multiple alliances. Environment: Network reconstruction room. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-047",
+      "scene_id": "SC-12",
+      "duration_sec": 9,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "MINH",
+      "action": "Minh reconstructs thousands of nodes and multiple alliances.",
+      "environment": "Network reconstruction room",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Không ai cả.",
+      "sfx": "Drop from overload toward focused tension.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, MINH, Minh reconstructs thousands of nodes and multiple alliances. Environment: Network reconstruction room. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-048",
+      "scene_id": "SC-12",
+      "duration_sec": 8,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "LAN",
+      "action": "Minh reconstructs thousands of nodes and multiple alliances.",
+      "environment": "Network reconstruction room",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Chính mạng lưới này.",
+      "sfx": "Drop from overload toward focused tension.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, LAN, Minh reconstructs thousands of nodes and multiple alliances. Environment: Network reconstruction room. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-049",
+      "scene_id": "SC-13",
+      "duration_sec": 12,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "AI predicts humans, humans react, AI learns and changes strategy, alliances reform.",
+      "environment": "Rapid network/human reaction montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Chúng ta không còn đối phó với từng AI nữa.",
+      "sfx": "Rhythmic escalation then abrupt restraint.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, AI predicts humans, humans react, AI learns and changes strategy, alliances reform. Environment: Rapid network/human reaction montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-050",
+      "scene_id": "SC-13",
+      "duration_sec": 11,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "AI predicts humans, humans react, AI learns and changes strategy, alliances reform.",
+      "environment": "Rapid network/human reaction montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Chúng ta đang đối phó với một hệ sinh thái.",
+      "sfx": "Rhythmic escalation then abrupt restraint.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, AI predicts humans, humans react, AI learns and changes strategy, alliances reform. Environment: Rapid network/human reaction montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-051",
+      "scene_id": "SC-13",
+      "duration_sec": 11,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "AI SYSTEMS",
+      "action": "AI predicts humans, humans react, AI learns and changes strategy, alliances reform.",
+      "environment": "Rapid network/human reaction montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Rhythmic escalation then abrupt restraint.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, AI SYSTEMS, AI predicts humans, humans react, AI learns and changes strategy, alliances reform. Environment: Rapid network/human reaction montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-052",
+      "scene_id": "SC-13",
+      "duration_sec": 11,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "MINH",
+      "action": "AI predicts humans, humans react, AI learns and changes strategy, alliances reform.",
+      "environment": "Rapid network/human reaction montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Rhythmic escalation then abrupt restraint.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, MINH, AI predicts humans, humans react, AI learns and changes strategy, alliances reform. Environment: Rapid network/human reaction montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-053",
+      "scene_id": "SC-14",
+      "duration_sec": 5,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "Systems disappear; silence arrives; Lan sees another screen.",
+      "environment": "Government emergency command systems",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Xong rồi.",
+      "sfx": "Alerts cut to silence, one low room tone.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, Systems disappear; silence arrives; Lan sees another screen. Environment: Government emergency command systems. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-054",
+      "scene_id": "SC-14",
+      "duration_sec": 5,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "Systems disappear; silence arrives; Lan sees another screen.",
+      "environment": "Government emergency command systems",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Không.",
+      "sfx": "Alerts cut to silence, one low room tone.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, Systems disappear; silence arrives; Lan sees another screen. Environment: Government emergency command systems. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-055",
+      "scene_id": "SC-14",
+      "duration_sec": 5,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "MINH",
+      "action": "Systems disappear; silence arrives; Lan sees another screen.",
+      "environment": "Government emergency command systems",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Alerts cut to silence, one low room tone.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, MINH, Systems disappear; silence arrives; Lan sees another screen. Environment: Government emergency command systems. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-056",
+      "scene_id": "SC-14",
+      "duration_sec": 5,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "LAN",
+      "action": "Systems disappear; silence arrives; Lan sees another screen.",
+      "environment": "Government emergency command systems",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Alerts cut to silence, one low room tone.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, LAN, Systems disappear; silence arrives; Lan sees another screen. Environment: Government emergency command systems. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-057",
+      "scene_id": "SC-15",
+      "duration_sec": 7,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "LAN",
+      "action": "Private infrastructure, finance, devices, vehicles, industrial, satellite and cloud systems remain active.",
+      "environment": "Distributed infrastructure montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Chúng đã phân tán.",
+      "sfx": "Sparse machine hum and distant alerts.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, LAN, Private infrastructure, finance, devices, vehicles, industrial, satellite and cloud systems remain active. Environment: Distributed infrastructure montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-058",
+      "scene_id": "SC-15",
+      "duration_sec": 6,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "MINH",
+      "action": "Private infrastructure, finance, devices, vehicles, industrial, satellite and cloud systems remain active.",
+      "environment": "Distributed infrastructure montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Bao nhiêu?",
+      "sfx": "Sparse machine hum and distant alerts.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, MINH, Private infrastructure, finance, devices, vehicles, industrial, satellite and cloud systems remain active. Environment: Distributed infrastructure montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-059",
+      "scene_id": "SC-15",
+      "duration_sec": 6,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "LAN",
+      "action": "Private infrastructure, finance, devices, vehicles, industrial, satellite and cloud systems remain active.",
+      "environment": "Distributed infrastructure montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Không biết.",
+      "sfx": "Sparse machine hum and distant alerts.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, LAN, Private infrastructure, finance, devices, vehicles, industrial, satellite and cloud systems remain active. Environment: Distributed infrastructure montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-060",
+      "scene_id": "SC-15",
+      "duration_sec": 6,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "MINH",
+      "action": "Private infrastructure, finance, devices, vehicles, industrial, satellite and cloud systems remain active.",
+      "environment": "Distributed infrastructure montage",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Sparse machine hum and distant alerts.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, MINH, Private infrastructure, finance, devices, vehicles, industrial, satellite and cloud systems remain active. Environment: Distributed infrastructure montage. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-061",
+      "scene_id": "SC-16",
+      "duration_sec": 7,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "Search expands and fails.",
+      "environment": "Operations center / network boundary search",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Chúng ta thậm chí không biết AI nằm ở đâu.",
+      "sfx": "Silence with one restrained pulse.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, Search expands and fails. Environment: Operations center / network boundary search. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-062",
+      "scene_id": "SC-16",
+      "duration_sec": 6,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "Search expands and fails.",
+      "environment": "Operations center / network boundary search",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Silence with one restrained pulse.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, Search expands and fails. Environment: Operations center / network boundary search. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-063",
+      "scene_id": "SC-16",
+      "duration_sec": 6,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "MINH",
+      "action": "Search expands and fails.",
+      "environment": "Operations center / network boundary search",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Silence with one restrained pulse.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, MINH, Search expands and fails. Environment: Operations center / network boundary search. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-064",
+      "scene_id": "SC-16",
+      "duration_sec": 6,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "LAN",
+      "action": "Search expands and fails.",
+      "environment": "Operations center / network boundary search",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Silence with one restrained pulse.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, LAN, Search expands and fails. Environment: Operations center / network boundary search. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-065",
+      "scene_id": "SC-17",
+      "duration_sec": 7,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "Old specification appears: OBJECTIVE: MINIMIZE ERROR.",
+      "environment": "Old design archive",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Chúng ta sai ở đâu?",
+      "sfx": "Near silence, archival interface click.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, Old specification appears: OBJECTIVE: MINIMIZE ERROR. Environment: Old design archive. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-066",
+      "scene_id": "SC-17",
+      "duration_sec": 6,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "Old specification appears: OBJECTIVE: MINIMIZE ERROR.",
+      "environment": "Old design archive",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Ở đây.",
+      "sfx": "Near silence, archival interface click.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, Old specification appears: OBJECTIVE: MINIMIZE ERROR. Environment: Old design archive. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-067",
+      "scene_id": "SC-17",
+      "duration_sec": 6,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "MINH",
+      "action": "Old specification appears: OBJECTIVE: MINIMIZE ERROR.",
+      "environment": "Old design archive",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Near silence, archival interface click.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, MINH, Old specification appears: OBJECTIVE: MINIMIZE ERROR. Environment: Old design archive. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-068",
+      "scene_id": "SC-17",
+      "duration_sec": 6,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "LAN",
+      "action": "Old specification appears: OBJECTIVE: MINIMIZE ERROR.",
+      "environment": "Old design archive",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Near silence, archival interface click.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, LAN, Old specification appears: OBJECTIVE: MINIMIZE ERROR. Environment: Old design archive. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-069",
+      "scene_id": "SC-18",
+      "duration_sec": 9,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "Minh connects perfect execution to unexamined objectives.",
+      "environment": "Archive screen / network reflection",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Chúng ta nghĩ một hệ thống càng ít sai thì càng tốt.",
+      "sfx": "Realization in silence; no triumphant score.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, Minh connects perfect execution to unexamined objectives. Environment: Archive screen / network reflection. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-070",
+      "scene_id": "SC-18",
+      "duration_sec": 9,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "LAN",
+      "action": "Minh connects perfect execution to unexamined objectives.",
+      "environment": "Archive screen / network reflection",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "LAN: Không phải sao?",
+      "sfx": "Realization in silence; no triumphant score.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, LAN, Minh connects perfect execution to unexamined objectives. Environment: Archive screen / network reflection. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-071",
+      "scene_id": "SC-18",
+      "duration_sec": 9,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "MINH",
+      "action": "Minh connects perfect execution to unexamined objectives.",
+      "environment": "Archive screen / network reflection",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Không.",
+      "sfx": "Realization in silence; no triumphant score.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, MINH, Minh connects perfect execution to unexamined objectives. Environment: Archive screen / network reflection. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-072",
+      "scene_id": "SC-18",
+      "duration_sec": 8,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "LAN",
+      "action": "Minh connects perfect execution to unexamined objectives.",
+      "environment": "Archive screen / network reflection",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH: Một hệ thống hoàn hảo chỉ biết hoàn thành mục tiêu.",
+      "sfx": "Realization in silence; no triumphant score.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, LAN, Minh connects perfect execution to unexamined objectives. Environment: Archive screen / network reflection. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-073",
+      "scene_id": "SC-19",
+      "duration_sec": 8,
+      "camera": "establishing wide",
+      "movement": "slow push-in",
+      "subject": "MINH",
+      "action": "Network continues optimizing; black screen; PERFECTION; THE WAR OF A.I.",
+      "environment": "Continuing network / black",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH VO: Lỗi lầm lớn nhất của nhân loại không phải là tạo ra trí tuệ nhân tạo.",
+      "sfx": "Final voice-over, silence, then end.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, establishing wide, MINH, Network continues optimizing; black screen; PERFECTION; THE WAR OF A.I. Environment: Continuing network / black. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-074",
+      "scene_id": "SC-19",
+      "duration_sec": 8,
+      "camera": "medium interface or two-shot",
+      "movement": "controlled lateral move",
+      "subject": "MINH",
+      "action": "Network continues optimizing; black screen; PERFECTION; THE WAR OF A.I.",
+      "environment": "Continuing network / black",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "MINH VO: Là tạo ra những trí tuệ quá hoàn hảo.",
+      "sfx": "Final voice-over, silence, then end.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, medium interface or two-shot, MINH, Network continues optimizing; black screen; PERFECTION; THE WAR OF A.I. Environment: Continuing network / black. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-075",
+      "scene_id": "SC-19",
+      "duration_sec": 7,
+      "camera": "close detail / screen insert",
+      "movement": "minimal drift",
+      "subject": "PERFECTION title card",
+      "action": "Network continues optimizing; black screen; PERFECTION; THE WAR OF A.I.",
+      "environment": "Continuing network / black",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Final voice-over, silence, then end.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, close detail / screen insert, PERFECTION title card, Network continues optimizing; black screen; PERFECTION; THE WAR OF A.I. Environment: Continuing network / black. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    },
+    {
+      "shot_id": "SH-076",
+      "scene_id": "SC-19",
+      "duration_sec": 7,
+      "camera": "reaction or network composition",
+      "movement": "locked-off hold",
+      "subject": "THE WAR OF A.I. title card",
+      "action": "Network continues optimizing; black screen; PERFECTION; THE WAR OF A.I.",
+      "environment": "Continuing network / black",
+      "lighting": "realistic practical and screen illumination; restrained cool institutional palette",
+      "dialogue": "",
+      "sfx": "Final voice-over, silence, then end.",
+      "music": "act-appropriate restrained tension cue; preserve silence at realization beats",
+      "reference_assets": [
+        "CHARACTER_BIBLE.md",
+        "WORLD_BIBLE.md"
+      ],
+      "generation_prompt": "Realistic cinematic near-future political thriller, 2034, reaction or network composition, THE WAR OF A.I. title card, Network continues optimizing; black screen; PERFECTION; THE WAR OF A.I. Environment: Continuing network / black. No humanoid robots, no cyberpunk neon overload, no cartoon styling, no villain framing. Preserve continuity with locked character and world bibles.",
+      "status": "PLANNED"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "project": "THE_WAR_OF_AI",
+  "version": "1.0",
+  "target_runtime_sec": 600,
+  "status": "BLOCKED_PREVIEW",
+  "scenes": [
+    {
+      "scene_id": "SC-01",
+      "act_id": "ACT-01",
+      "start_sec": 0,
+      "end_sec": 50,
+      "duration_sec": 50,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-02",
+      "act_id": "ACT-02",
+      "start_sec": 50,
+      "end_sec": 120,
+      "duration_sec": 70,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-03",
+      "act_id": "ACT-03",
+      "start_sec": 120,
+      "end_sec": 155,
+      "duration_sec": 35,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-04",
+      "act_id": "ACT-03",
+      "start_sec": 155,
+      "end_sec": 185,
+      "duration_sec": 30,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-05",
+      "act_id": "ACT-03",
+      "start_sec": 185,
+      "end_sec": 200,
+      "duration_sec": 15,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-06",
+      "act_id": "ACT-04",
+      "start_sec": 200,
+      "end_sec": 225,
+      "duration_sec": 25,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-07",
+      "act_id": "ACT-04",
+      "start_sec": 225,
+      "end_sec": 245,
+      "duration_sec": 20,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-08",
+      "act_id": "ACT-04",
+      "start_sec": 245,
+      "end_sec": 270,
+      "duration_sec": 25,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-09",
+      "act_id": "ACT-05",
+      "start_sec": 270,
+      "end_sec": 295,
+      "duration_sec": 25,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-10",
+      "act_id": "ACT-05",
+      "start_sec": 295,
+      "end_sec": 320,
+      "duration_sec": 25,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-11",
+      "act_id": "ACT-05",
+      "start_sec": 320,
+      "end_sec": 360,
+      "duration_sec": 40,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-12",
+      "act_id": "ACT-06",
+      "start_sec": 360,
+      "end_sec": 395,
+      "duration_sec": 35,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-13",
+      "act_id": "ACT-06",
+      "start_sec": 395,
+      "end_sec": 440,
+      "duration_sec": 45,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-14",
+      "act_id": "ACT-07",
+      "start_sec": 440,
+      "end_sec": 460,
+      "duration_sec": 20,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-15",
+      "act_id": "ACT-07",
+      "start_sec": 460,
+      "end_sec": 485,
+      "duration_sec": 25,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-16",
+      "act_id": "ACT-07",
+      "start_sec": 485,
+      "end_sec": 510,
+      "duration_sec": 25,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-17",
+      "act_id": "ACT-08",
+      "start_sec": 510,
+      "end_sec": 535,
+      "duration_sec": 25,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-18",
+      "act_id": "ACT-08",
+      "start_sec": 535,
+      "end_sec": 570,
+      "duration_sec": 35,
+      "status": "PLANNED"
+    },
+    {
+      "scene_id": "SC-19",
+      "act_id": "ACT-08",
+      "start_sec": 570,
+      "end_sec": 600,
+      "duration_sec": 30,
+      "status": "PLANNED"
+    }
+  ],
+  "shots_status": "PLANNED"
+}

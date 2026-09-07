@@ -1,0 +1,27 @@
+{
+  "project": "THE_WAR_OF_AI",
+  "version": "1.0",
+  "target_runtime_sec": 600,
+  "runtime_tolerance_sec": 5,
+  "state": "ASSET_GENERATION_BLOCKED",
+  "repository": "ntnguyen983-sketch/GMN",
+  "premise_locked": true,
+  "causal_graph_locked": true,
+  "ending_locked": true,
+  "generation_started": true,
+  "artifacts": {
+    "tool_capability_matrix": "TOOL_CAPABILITY_MATRIX.md",
+    "execution_graph": "EXECUTION_GRAPH.md"
+  },
+  "next_state": "ASSET_GENERATION",
+  "notes": [
+    "All repository documents were read before generation.",
+    "Primary and fallback tools were selected from observed session capabilities.",
+    "No premise, causal chain, narrative order, or ending was changed."
+  ],
+  "video_generation_available": false,
+  "reference_art_generated": true,
+  "blockers": [
+    "Video generation unavailable on current plan; preview rejected before MP4 creation."
+  ]
+}
