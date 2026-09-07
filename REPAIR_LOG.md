@@ -17,3 +17,13 @@ The video-generation blocker remains unchanged; no MP4 generation or state trans
 The handover route was reopened in Google Colab. Google login succeeded and a free GPU runtime connected. The single `Prepare Environment` cell was run once with `useQ6` disabled. PyTorch/CUDA packages were installed/replaced and Wan2.1 Q4 model download reached approximately 9.3/9.5 GiB (97%), but the cell did not produce `Environment Setup Complete!` after approximately 20 minutes. No MP4, generation output, ffprobe evidence or checksum was created.
 
 Classification: `SETUP_STALL` / FAIL at smallest unit `Prepare Environment`. Repair boundary: retry only the environment cell after controlled runtime reconnect; do not run `Generate Video`, `Run all`, or change any locked production artifact. See `OPERATIONS-GUIDE.md`.
+
+## 2026-09-08 — Colab upload widget MessageError
+
+After `Prepare Environment` passed, the single baseline generation cell was run with Q4, `832x480`, `33` frames, `16` FPS, `20` steps and seed `0`. The Colab upload widget accepted `visual-target.png` and reported approximately 460 KB uploaded, but `google.colab.files.upload()` then failed inside `_uploadFilesContinue` with:
+
+```text
+MessageError: TypeError: Cannot read properties of undefined (reading 'next')
+```
+
+No image was moved into the ComfyUI input path by verified evidence, no inference completed, and no MP4/ffprobe/checksum exists. Classification: `UPLOAD_WIDGET_FAIL`, repair boundary is the notebook upload mechanism. Do not claim shot generation or retry repeatedly without refreshing the current browser-session widget. Locked production artifacts remain unchanged.
