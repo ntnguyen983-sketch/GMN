@@ -44,3 +44,7 @@ The locked manifests were validated locally: 19 scenes, 76 shots, and 600 second
 - Generate Video: failed before inference because no reference image was uploaded; observed `No image uploaded` and `AttributeError`.
 - Output: no MP4, no video stream, no `ffprobe` evidence, no checksum.
 - Gate: **BLOCKED**; smallest failed unit is reference upload for `SC-01/SH-001`.
+
+## SH-001 technical QC — 2026-09-07T22:25:58.379685+00:00
+
+`evidence/SH-001.mp4` is a valid H.264 MP4 at 832x480 and 16 fps with 33 frames and a 2.0625-second duration. The file is playable and its checksum is recorded in `evidence/SH-001-QC.json`. This is a shot test artifact; it does not satisfy the 13-second editorial duration or the 600-second master requirement by itself.

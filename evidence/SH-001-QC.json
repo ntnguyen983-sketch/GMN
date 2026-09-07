@@ -1,0 +1,29 @@
+{
+  "shot_id": "SH-001",
+  "generated_at_utc": "2026-09-07T22:25:58.379685+00:00",
+  "source_route": "Colab Wan2.1 I2V GGUF Q4 on T4",
+  "reference_handoff": "direct CDN download to /content/ComfyUI/input/visual-target.png; bypassed files.upload()",
+  "parameters": {
+    "width": 832,
+    "height": 480,
+    "frames": 33,
+    "fps": 16,
+    "steps": 20,
+    "cfg_scale": 3,
+    "sampler": "uni_pc",
+    "scheduler": "simple",
+    "output_format": "mp4"
+  },
+  "technical_qc": {
+    "codec": "h264",
+    "width": 832,
+    "height": 480,
+    "r_frame_rate": "16/1",
+    "nb_frames": 33,
+    "duration_sec": 2.0625,
+    "size_bytes": 669712,
+    "sha256": "88abfd5dced3ca76b77dc2c882d10c32b6d97ce5054437cf85eb5bfbfe81177c"
+  },
+  "artifact": "evidence/SH-001.mp4",
+  "qualification": "PASS for generated SH-001 test artifact technical integrity; NOT a final master audit pass."
+}

@@ -67,3 +67,7 @@ An automated Colab script was executed to mount Google Drive and recursively sea
 ## Repair checkpoint — 2026-09-07T21:45:39.990970+00:00
 
 The Colab fallback reached the Generate Video cell, but the visual-target upload did not complete. The cell terminated with `No image uploaded` / `AttributeError` before inference. No production artifact was overwritten. Repair only `REFERENCE_UPLOAD` for `SH-001`; do not rerun remaining shots or alter locked screenplay/manifests.
+
+## Repair completed — 2026-09-07T22:25:58.379685+00:00
+
+Resolved the Colab `No image uploaded` failure by downloading the reference image directly into the runtime input directory instead of relying on the browser file chooser. SH-001 rendered successfully and was downloaded for QC.

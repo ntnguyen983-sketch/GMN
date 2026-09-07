@@ -25,3 +25,7 @@ The final audit remains **NOT PASS / BLOCKED**. Local manifest validation passed
 The T4 runtime was connected. The `Generate Video` cell was allowed to terminate, but the reference-upload step did not produce an input image; the cell reported `No image uploaded` followed by an `AttributeError` in `generate_video`. No inference completed, and no MP4, `ffprobe` record, or checksum was created. The final audit remains **NOT PASS / BLOCKED**.
 
 The smallest failed unit is **REFERENCE_UPLOAD / SH-001 input handoff**. The state remains `ASSET_GENERATION_BLOCKED`; do not transition to `ASSET_QC`.
+
+## SH-001 fallback generation evidence — 2026-09-07T22:25:58.379685+00:00
+
+The Colab fallback route successfully generated and downloaded `evidence/SH-001.mp4` after bypassing the failing browser file-upload bridge. Technical QC passed: H.264, 832x480, 16 fps, 33 frames, 2.0625 seconds, 669712 bytes; SHA-256 `88abfd5dced3ca76b77dc2c882d10c32b6d97ce5054437cf85eb5bfbfe81177c`. This validates the first shot-generation route, but the project remains **NOT PASS for final master** because the 600-second assembly and remaining shots are not rendered.
