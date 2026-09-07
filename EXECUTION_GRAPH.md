@@ -90,4 +90,4 @@ PREPARE_ENVIRONMENT
 
 ## Current execution position
 
-`TOOL_DISCOVERY` and preproduction are complete. Reference continuity revision R2 is recorded. The current position is `PREPARE_ENVIRONMENT = SETUP_STALL` on the Colab fallback: runtime connected, Q4 setup executed once, model download reached approximately 97%, but no completion marker or MP4 exists. Do not enter `ASSET_QC` or run video generation until this gate passes.
+`TOOL_DISCOVERY` and preproduction are complete. Reference continuity revision R2 is recorded. The Colab fallback has now generated and QC-validated `SH-001`; the current position is `ASSET_GENERATION` with `SH-002`–`SH-076` pending. `EDIT_ASSEMBLY` is gated by the deterministic `assemble_master.py` preflight, which currently refuses assembly because only 1/76 shot MP4s exist.

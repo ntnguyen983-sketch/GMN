@@ -29,3 +29,7 @@ The smallest failed unit is **REFERENCE_UPLOAD / SH-001 input handoff**. The sta
 ## SH-001 fallback generation evidence — 2026-09-07T22:25:58.379685+00:00
 
 The Colab fallback route successfully generated and downloaded `evidence/SH-001.mp4` after bypassing the failing browser file-upload bridge. Technical QC passed: H.264, 832x480, 16 fps, 33 frames, 2.0625 seconds, 669712 bytes; SHA-256 `88abfd5dced3ca76b77dc2c882d10c32b6d97ce5054437cf85eb5bfbfe81177c`. This validates the first shot-generation route, but the project remains **NOT PASS for final master** because the 600-second assembly and remaining shots are not rendered.
+
+## Assembly gate — 2026-09-07T22:30:16.515633+00:00
+
+The deterministic assembly gate inspected the locked `SHOT_MANIFEST.json` and found 1/76 valid shot MP4s (`SH-001` only). It correctly refused to create a master; no artificial duplication or stretching was used. The project remains **NOT PASS / BLOCKED** until `SH-002` through `SH-076` are generated and QC-validated.

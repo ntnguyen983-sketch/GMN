@@ -71,3 +71,7 @@ The Colab fallback reached the Generate Video cell, but the visual-target upload
 ## Repair completed — 2026-09-07T22:25:58.379685+00:00
 
 Resolved the Colab `No image uploaded` failure by downloading the reference image directly into the runtime input directory instead of relying on the browser file chooser. SH-001 rendered successfully and was downloaded for QC.
+
+## Assembly gate repair record — 2026-09-07T22:30:16.515633+00:00
+
+The assembly preflight was added as a deterministic guard. It prevents an invalid master from being created when locked shot artifacts are missing. Smallest remaining work unit is the next missing shot generation, beginning with `SH-002`.
