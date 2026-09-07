@@ -18,3 +18,17 @@ The final audit remains **NOT PASS / BLOCKED**. Local manifest validation passed
 - **Generation status:** `Generate Video` has not been run. No MP4, ffprobe evidence, or checksum exists.
 - **State:** Remains `ASSET_GENERATION_BLOCKED`; do not transition to `ASSET_QC`.
 - **Next action:** Wait for this same setup cell to finish; classify as `SETUP_PASS` only if the completion marker appears, otherwise record `SETUP_STALL`/traceback.
+
+
+## Colab final execution evidence — 2026-09-07T21:45:30.200218+00:00
+
+The T4 runtime was connected. The `Generate Video` cell was allowed to terminate, but the reference-upload step did not produce an input image; the cell reported `No image uploaded` followed by an `AttributeError` in `generate_video`. No inference completed, and no MP4, `ffprobe` record, or checksum was created. The final audit remains **NOT PASS / BLOCKED**.
+
+The smallest failed unit is **REFERENCE_UPLOAD / SH-001 input handoff**. The state remains `ASSET_GENERATION_BLOCKED`; do not transition to `ASSET_QC`.
+
+
+## Colab final execution evidence — 2026-09-07T21:45:39.990970+00:00
+
+The T4 runtime was connected. The `Generate Video` cell was allowed to terminate, but the reference-upload step did not produce an input image; the cell reported `No image uploaded` followed by an `AttributeError` in `generate_video`. No inference completed, and no MP4, `ffprobe` record, or checksum was created. The final audit remains **NOT PASS / BLOCKED**.
+
+The smallest failed unit is **REFERENCE_UPLOAD / SH-001 input handoff**. The state remains `ASSET_GENERATION_BLOCKED`; do not transition to `ASSET_QC`.

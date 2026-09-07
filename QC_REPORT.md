@@ -35,3 +35,21 @@ The locked manifests were validated locally: 19 scenes, 76 shots, and 600 second
 - **Generation status:** `Generate Video` has not been run. No MP4, ffprobe evidence, or checksum exists.
 - **State:** Remains `ASSET_GENERATION_BLOCKED`; do not transition to `ASSET_QC`.
 - **Next action:** Wait for this same setup cell to finish; classify as `SETUP_PASS` only if the completion marker appears, otherwise record `SETUP_STALL`/traceback.
+
+
+## Colab final execution evidence — 2026-09-07T21:45:30.200218+00:00
+
+- Runtime: connected T4 GPU.
+- Prepare Environment: completion marker not observed in the available evidence.
+- Generate Video: failed before inference because no reference image was uploaded; observed `No image uploaded` and `AttributeError`.
+- Output: no MP4, no video stream, no `ffprobe` evidence, no checksum.
+- Gate: **BLOCKED**; smallest failed unit is reference upload for `SC-01/SH-001`.
+
+
+## Colab final execution evidence — 2026-09-07T21:45:39.990970+00:00
+
+- Runtime: connected T4 GPU.
+- Prepare Environment: completion marker not observed in the available evidence.
+- Generate Video: failed before inference because no reference image was uploaded; observed `No image uploaded` and `AttributeError`.
+- Output: no MP4, no video stream, no `ffprobe` evidence, no checksum.
+- Gate: **BLOCKED**; smallest failed unit is reference upload for `SC-01/SH-001`.
