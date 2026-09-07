@@ -64,11 +64,6 @@ An automated Colab script was executed to mount Google Drive and recursively sea
 - **Next action:** Wait for this same setup cell to finish; classify as `SETUP_PASS` only if the completion marker appears, otherwise record `SETUP_STALL`/traceback.
 
 
-## Repair checkpoint — 2026-09-07T21:45:30.200218+00:00
-
-The Colab fallback reached the Generate Video cell, but the visual-target upload did not complete. The cell terminated with `No image uploaded` / `AttributeError` before inference. No production artifact was overwritten. Repair only `REFERENCE_UPLOAD` for `SH-001`; do not rerun remaining shots or alter locked screenplay/manifests.
-
-
 ## Repair checkpoint — 2026-09-07T21:45:39.990970+00:00
 
 The Colab fallback reached the Generate Video cell, but the visual-target upload did not complete. The cell terminated with `No image uploaded` / `AttributeError` before inference. No production artifact was overwritten. Repair only `REFERENCE_UPLOAD` for `SH-001`; do not rerun remaining shots or alter locked screenplay/manifests.
