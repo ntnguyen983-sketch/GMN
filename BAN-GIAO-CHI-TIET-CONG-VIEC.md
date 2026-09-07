@@ -303,3 +303,23 @@ Công việc chỉ được coi là hoàn thành khi tất cả required artifac
 ---
 
 *End of handover document.*
+
+## 8. Checklist và quy trình thực tế cập nhật — 2026-09-07T22:33:24.429883+00:00
+
+Checklist vận hành đầy đủ đã được tách thành `PRODUCTION-CHECKLIST.md`. Quy trình bắt buộc hiện hành là: generation một shot mỗi lần; reference được tải trực tiếp vào `/content/ComfyUI/input/visual-target.png` nếu browser file chooser không truyền file; output phải được tìm trong `/content/ComfyUI/output`; mỗi MP4 phải có ffprobe JSON và SHA-256; mỗi lần pass phải commit/push trước khi chuyển shot.
+
+### Các chú ý quan trọng
+
+- Không coi `SH-001` pass là hoàn thành phim; đây chỉ là baseline technical-QC.
+- Không sửa các artifact khóa: screenplay, causal graph, scene manifest, shot manifest, bible.
+- Không lặp, kéo dài frame hoặc dùng ảnh tĩnh để làm đủ runtime.
+- Không assembly khi thiếu shot, audio stem hoặc subtitle dependency.
+- Không ghi `FINAL_AUDIT PASS` trước khi master 595–605 giây và toàn bộ QC pass.
+- Nếu lỗi chỉ thuộc một shot, chỉ retry shot đó và ghi repair evidence.
+
+### Tình trạng bàn giao hiện tại
+
+- Gate: `ASSET_GENERATION`
+- PASS: `SH-001` technical QC; assembly gate script; runbook/checklist
+- Pending: `SH-002`–`SH-076`, audio layers, subtitle sync, master QC
+- Next action: generate và QC `SH-002` theo locked manifest

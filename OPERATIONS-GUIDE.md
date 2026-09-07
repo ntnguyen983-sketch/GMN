@@ -76,3 +76,13 @@ Mỗi lần bàn giao phải ghi: timestamp, notebook URL, runtime, model, refer
 ## Trạng thái cập nhật hiện tại
 
 Tại lần kiểm tra gần nhất, dự án đang ở `ASSET_GENERATION_BLOCKED`. Reference R2 PASS ở preproduction. Colab runtime CONNECTED nhưng `Prepare Environment` là `SETUP_STALL` ở bước tải model khoảng 97%; chưa có MP4, ffprobe output hoặc checksum video. Bước tiếp theo là retry có kiểm soát của đúng cell setup theo mục `Xử lý SETUP_STALL`, không chạy generation trước đó.
+
+## Quy trình mở rộng sau SH-001 — 2026-09-07T22:33:24.429883+00:00
+
+`SH-001` đã pass technical QC. Từ `SH-002` trở đi, mỗi shot chạy theo vòng lặp: đọc shot record khóa → xác nhận runtime/setup → tạo một cell generation riêng → tải trực tiếp reference nếu file chooser lỗi → chờ inference → tải MP4 → ffprobe/checksum → tạo QC JSON → commit/push. Không chạy song song nhiều cell trong cùng một Colab runtime và không chạy `Run all`.
+
+Assembly chỉ được phép khi có đủ 76 MP4, các audio/subtitle stem bắt buộc và tổng duration trong 595–605 giây. Script `assemble_master.py` là gate bắt buộc; nếu thiếu bất kỳ shot nào, script phải dừng và không tạo master. Checklist chi tiết nằm ở `PRODUCTION-CHECKLIST.md`.
+
+## Trạng thái thực tế
+
+Tại 2026-09-07T22:33:24.429883+00:00, `SH-001` là artifact duy nhất đã render/QC. `SH-002` là next action; `SH-003`–`SH-076` pending.
