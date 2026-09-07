@@ -24,6 +24,7 @@
   "reference_art_generated": true,
   "reference_continuity_revision": "R2",
   "blockers": [
-    "Video generation unavailable on current plan; preview rejected before MP4 creation."
+    "Primary Manus video generation unavailable on current plan; preview rejected before MP4 creation.",
+    "Colab fallback runtime connected but Prepare Environment stalled at approximately 97% model download; no completion marker or MP4 evidence exists."
   ]
 }

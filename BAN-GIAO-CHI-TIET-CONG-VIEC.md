@@ -70,11 +70,11 @@ Asset dùng cho shot thử nghiệm đầu tiên là `visual-target.png`, không
 - `video_generation_available`: `false`
 - `reference_art_generated`: `true`
 
-Blocker chính được ghi nhận là provider video generation ban đầu bị từ chối trên capability/plan hiện tại trước khi tạo MP4. Sau đó đã tìm và cấu hình route miễn phí bằng Google Colab với notebook Wan2.1 I2V Q4 GGUF và runtime T4. Environment setup đã từng hoàn tất, gồm PyTorch/CUDA, ComfyUI và model/checkpoint phụ trợ.
+Blocker chính được ghi nhận là provider video generation ban đầu bị từ chối trên capability/plan hiện tại trước khi tạo MP4. Route miễn phí bằng Google Colab với notebook Wan2.1 I2V Q4 GGUF và runtime T4 đã được mở lại và runtime đã kết nối thành công. Tuy nhiên, lần setup hiện tại đã chạy khoảng 20 phút, cài PyTorch/CUDA và dừng ở log tải model khoảng 9.3/9.5 GiB (97%) mà không xuất hiện `Environment Setup Complete!`.
 
 Trong lần chạy tiếp theo, một thao tác UI nhập prompt bằng tọa độ đã vô tình làm biến dạng nội dung cell và tạo `SyntaxError`. Notebook đã được reload từ URL GitHub nguyên bản để khôi phục code. Việc reload làm mất runtime/session T4 và form trở về mặc định. Đây là lỗi thao tác môi trường, không phải thay đổi screenplay hay production artifact.
 
-**Không được tuyên bố đã tạo SC-01/SH-001 MP4.** Tại thời điểm bàn giao, chưa có video generation output hợp lệ và chưa được phép chuyển state sang `ASSET_QC`.
+**Không được tuyên bố setup đã PASS hoặc đã tạo SC-01/SH-001 MP4.** Tại thời điểm cập nhật, chưa có video generation output hợp lệ, chưa có ffprobe evidence và chưa được phép chuyển state sang `ASSET_QC`. Smallest failed unit hiện tại là `Prepare Environment` của Colab; không chạy cell `Generate Video` khi chưa có dòng hoàn tất.
 
 ---
 
@@ -112,17 +112,17 @@ Prompt phải thể hiện thế giới 2034 chân thực, cinematic, political 
 1. Mở notebook Colab từ URL nêu trên.
 2. Đăng nhập Google nếu Colab yêu cầu.
 3. Chọn và kết nối runtime **T4 GPU**.
-4. Chạy cell `Prepare Environment`; chờ dòng `Environment Setup Complete!`.
+4. Chạy cell `Prepare Environment` một lần; phải chờ dòng `Environment Setup Complete!`. Nếu cell kết thúc ở log tải model mà không có dòng này, ghi `SETUP_STALL` và không chạy `Generate Video`.
 5. Không sửa code cell. Chỉ thay đổi các widget/input field của cell `Generate Video`.
 6. Upload đúng file `/home/ubuntu/webdev-static-assets/the-war-of-ai/visual-target.png`.
 7. Nhập các thông số generation trong bảng ở mục 4.2.
 8. Dùng prompt đã khóa cho `SC-01/SH-001`; không viết lại premise hoặc causal logic.
-9. Chạy generation một lần; không bấm Run All vì có thể cài lại environment hoặc tạo execution ngoài ý muốn.
+9. Chỉ chạy generation một lần sau khi setup PASS; không bấm Run All vì có thể cài lại environment hoặc tạo execution ngoài ý muốn.
 10. Chờ job kết thúc; không reset runtime trong khi model đang inference.
 11. Tải MP4 về sandbox và đặt tên `SC-01_SH-001_preview_v001.mp4`.
 12. Chạy `ffprobe` để xác nhận codec, kích thước, FPS, frame count và duration.
 13. Nếu MP4 hợp lệ, tạo checksum và cập nhật asset record; nếu lỗi, ghi vào `REPAIR_LOG.md` và chỉ chạy lại shot đó.
-14. Chỉ sau khi preview PASS mới chuyển sang `ASSET_QC`; không sửa `SCENE_MANIFEST.json`, `SHOT_MANIFEST.json`, `CAUSAL_GRAPH.json` hoặc screenplay.
+14. Chỉ sau khi preview PASS mới chuyển sang `ASSET_QC`; không sửa `SCENE_MANIFEST.json`, `SHOT_MANIFEST.json`, `CAUSAL_GRAPH.json` hoặc screenplay. Nếu setup stall, dùng quy trình trong `OPERATIONS-GUIDE.md`, không đánh dấu `video_generation_available: true`.
 
 ### 4.4 QC tối thiểu cho MP4
 

@@ -11,3 +11,9 @@ The original local-only reference files recorded in the handover were unavailabl
 The regenerated set preserves Minh/Lan identity anchors, the cool institutional palette, the distributed-network visual grammar and all negative constraints. The screenplay, causal graph, scene manifest and shot manifest were not modified. Checksums and version `R2` are recorded in `ASSET_MANIFEST.json`.
 
 The video-generation blocker remains unchanged; no MP4 generation or state transition to `ASSET_QC` has been claimed.
+
+## 2026-09-07 — Colab setup stall
+
+The handover route was reopened in Google Colab. Google login succeeded and a free GPU runtime connected. The single `Prepare Environment` cell was run once with `useQ6` disabled. PyTorch/CUDA packages were installed/replaced and Wan2.1 Q4 model download reached approximately 9.3/9.5 GiB (97%), but the cell did not produce `Environment Setup Complete!` after approximately 20 minutes. No MP4, generation output, ffprobe evidence or checksum was created.
+
+Classification: `SETUP_STALL` / FAIL at smallest unit `Prepare Environment`. Repair boundary: retry only the environment cell after controlled runtime reconnect; do not run `Generate Video`, `Run all`, or change any locked production artifact. See `OPERATIONS-GUIDE.md`.

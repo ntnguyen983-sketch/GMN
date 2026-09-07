@@ -78,6 +78,16 @@ Deterministic operations such as ffmpeg concatenation, duration checks, subtitle
 
 `FAIL → identify smallest failed unit → re-dispatch only that unit → QC → continue.` Every repair is appended to `REPAIR_LOG.md`; unrelated shots, voices, or scenes are never regenerated.
 
+Before `P10 Video Shot Generation`, the Colab route has an additional smallest-unit gate:
+
+```text
+RUNTIME_RECONNECT
+  ↓
+PREPARE_ENVIRONMENT
+  ├─ SETUP_STALL/FAIL → controlled runtime reconnect → PREPARE_ENVIRONMENT
+  └─ PASS → REFERENCE_UPLOAD → SC-01/SH-001_GENERATION
+```
+
 ## Current execution position
 
-`TOOL_DISCOVERY` is complete. Generation is intentionally not started until the locked production manifests are written and validated.
+`TOOL_DISCOVERY` and preproduction are complete. Reference continuity revision R2 is recorded. The current position is `PREPARE_ENVIRONMENT = SETUP_STALL` on the Colab fallback: runtime connected, Q4 setup executed once, model download reached approximately 97%, but no completion marker or MP4 exists. Do not enter `ASSET_QC` or run video generation until this gate passes.
