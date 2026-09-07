@@ -27,7 +27,8 @@
     "Colab final execution evidence 2026-09-07T21:45:39.990970+00:00: T4 runtime connected; Prepare Environment completion marker was not observed. Generate Video cell ended with no-image-upload failure (No image uploaded / AttributeError); no MP4, ffprobe evidence, or checksum exists.",
     "Colab fallback generation succeeded for SH-001 at 2026-09-07T22:25:58.379685+00:00: direct reference download bypassed files.upload; MP4 downloaded from ComfyUI runtime to evidence/SH-001.mp4.",
     "SH-001 technical QC: H.264, 832x480, 16 fps, 33 frames, 2.0625 seconds, 669712 bytes; this is a generated shot test artifact, not the 600-second master.",
-    "Assembly gate check 2026-09-07T22:30:16.515633+00:00: 1/76 valid shot MP4s found (SH-001 only), duration 2.0625s; assembly correctly refused to write a master."
+    "Assembly gate check 2026-09-07T22:30:16.515633+00:00: 1/76 valid shot MP4s found (SH-001 only), duration 2.0625s; assembly correctly refused to write a master.",
+    "SH-002 attempt 1 at 2026-09-07T23:05:49.238075+00:00: Colab runtime disconnected at notebook maximum duration before MP4 download; no SH-002 artifact created. Controlled retry started by reconnecting T4 and rerunning Prepare Environment only."
   ],
   "video_generation_available": true,
   "reference_art_generated": true,
@@ -37,6 +38,7 @@
     "Colab fallback runtime connected but the current kernel has no mounted Drive; visual-target.png was not found and no MP4 evidence exists.",
     "Current Colab route requires Google authentication in the available browser; R2 visual-target.png is also unavailable in the current sandbox, so runtime reconnect and reference upload cannot proceed.",
     "Colab Prepare Environment is still executing PyTorch/CUDA installation; completion marker not observed, so setup is not PASS.",
-    "Assembly blocked by missing SH-002 through SH-076: 75 locked shot MP4 artifacts remain to be generated and QC-validated before EDIT_ASSEMBLY."
+    "Assembly blocked by missing SH-002 through SH-076: 75 locked shot MP4 artifacts remain to be generated and QC-validated before EDIT_ASSEMBLY.",
+    "SH-002 retry is pending Prepare Environment PASS after runtime maximum-duration disconnect; no SH-002 MP4 exists yet."
   ]
 }

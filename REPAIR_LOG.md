@@ -75,3 +75,7 @@ Resolved the Colab `No image uploaded` failure by downloading the reference imag
 ## Assembly gate repair record — 2026-09-07T22:30:16.515633+00:00
 
 The assembly preflight was added as a deterministic guard. It prevents an invalid master from being created when locked shot artifacts are missing. Smallest remaining work unit is the next missing shot generation, beginning with `SH-002`.
+
+## SH-002 retry — 2026-09-07T23:05:49.238075+00:00
+
+Attempt 1 ended when Colab disconnected at its maximum runtime duration before output download. No artifact was accepted. Reconnected T4 and restarted only `Prepare Environment`; next action is to wait for setup PASS, then retry SH-002.

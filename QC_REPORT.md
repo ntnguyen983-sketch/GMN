@@ -52,3 +52,7 @@ The locked manifests were validated locally: 19 scenes, 76 shots, and 600 second
 ## Assembly precondition check — 2026-09-07T22:30:16.515633+00:00
 
 `python3 assemble_master.py` passed syntax validation but returned `ASSEMBLY_BLOCKED` with 75 missing shot inputs and total available duration 2.0625 seconds. No master output was written.
+
+## SH-002 attempt 1 — 2026-09-07T23:05:49.238075+00:00
+
+No MP4 was produced because the Colab runtime disconnected at the maximum session duration. Technical QC is not applicable; shot remains pending.

@@ -33,3 +33,7 @@ The Colab fallback route successfully generated and downloaded `evidence/SH-001.
 ## Assembly gate — 2026-09-07T22:30:16.515633+00:00
 
 The deterministic assembly gate inspected the locked `SHOT_MANIFEST.json` and found 1/76 valid shot MP4s (`SH-001` only). It correctly refused to create a master; no artificial duplication or stretching was used. The project remains **NOT PASS / BLOCKED** until `SH-002` through `SH-076` are generated and QC-validated.
+
+## SH-002 generation interruption — 2026-09-07T23:05:49.238075+00:00
+
+The first SH-002 inference did not produce an artifact: Colab disconnected at its maximum duration. A controlled retry was initiated after reconnecting T4; the project remains NOT PASS.
