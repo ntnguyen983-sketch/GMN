@@ -27,3 +27,15 @@ MessageError: TypeError: Cannot read properties of undefined (reading 'next')
 ```
 
 No image was moved into the ComfyUI input path by verified evidence, no inference completed, and no MP4/ffprobe/checksum exists. Classification: `UPLOAD_WIDGET_FAIL`, repair boundary is the notebook upload mechanism. Do not claim shot generation or retry repeatedly without refreshing the current browser-session widget. Locked production artifacts remain unchanged.
+
+## 2026-09-08 — Drive bypass blocked by unmounted runtime
+
+A Drive-to-ComfyUI bypass cell was added without changing the locked production manifests. It searched `/content/drive/MyDrive/**/visual-target.png` and stopped before copy/inference. The diagnostic cell then reported:
+
+```text
+DRIVE_EXISTS: False
+TOP: NO_DRIVE
+ALL_FILES: []
+```
+
+The current Colab T4 kernel therefore does not have Google Drive mounted, despite the earlier session having attempted a mount. No reference was copied to `/content/ComfyUI/input/`, no inference ran, and no MP4, ffprobe evidence or checksum exists. Classification: `DRIVE_MOUNT_MISSING`; repair boundary is to mount Drive in the current kernel and verify the reference path before rerunning the bypass once. Do not claim generation success.

@@ -4,7 +4,7 @@
 
 **Status: BLOCKED — not a final pass.**
 
-Story lock, character/world lock, causal graph lock, scene lock and shot lock are complete. The three reference images were regenerated as continuity revision R2 and their files exist with recorded checksums. The Google Colab fallback route was reopened, Google login succeeded and a GPU runtime connected. The single `Prepare Environment` cell was run once with Q4 mode, but setup stalled after PyTorch/CUDA installation while the Wan2.1 model download was approximately 9.3/9.5 GiB (97%); no `Environment Setup Complete!` marker appeared. No MP4 was generated.
+Story lock, character/world lock, causal graph lock, scene lock and shot lock are complete. The three reference images were regenerated as continuity revision R2 and their files exist with recorded checksums. The Google Colab fallback route is open and a GPU runtime is connected, but the current kernel has no mounted Google Drive. The Drive bypass diagnostic reported `DRIVE_EXISTS: False`, `TOP: NO_DRIVE`, and `ALL_FILES: []`. The bypass therefore stopped before copying `visual-target.png` into ComfyUI. No MP4 was generated.
 
 ## Checks
 
@@ -15,9 +15,10 @@ Story lock, character/world lock, causal graph lock, scene lock and shot lock ar
 | Character | PASS (preproduction, R2) | Character bible and regenerated continuity sheet exist; footage continuity not yet testable. |
 | World / visual | PASS (reference stage, R2) | Regenerated visual target and world sheet exist; shot footage not yet available. |
 | Colab runtime | PASS (connected) | Google login succeeded; free GPU runtime connected. |
-| Colab environment | FAIL / SETUP_STALL | `Prepare Environment` ran once; model download reached about 97% without completion marker. |
+| Colab environment | PASS previously / current kernel requires input repair | Earlier setup reached the generation widget; current kernel diagnostic confirms Drive is not mounted. |
+| Drive/reference input | FAIL / DRIVE_MOUNT_MISSING | `/content/drive/MyDrive` does not exist; `visual-target.png` was not found. |
 | Audio | NOT RUN | Voice/music generation and mix require the downstream production stage. |
 | Edit / runtime | NOT RUN | No shot footage exists; 600 sec timeline is manifest-only. |
 | Video technical integrity | BLOCKED | No MP4 was produced, so ffprobe/decode QC cannot run. |
 
-Final render and final audit must remain blocked until the environment setup passes, video generation produces valid shot footage, and all downstream QC evidence exists. The next repair unit is only the `Prepare Environment` cell; see `OPERATIONS-GUIDE.md`.
+Final render and final audit must remain blocked until Drive is mounted and the reference path is verified, video generation produces valid shot footage, and all downstream QC evidence exists. The next repair unit is only the current-kernel Drive mount/reference verification; see `OPERATIONS-GUIDE.md` and `REPAIR_LOG.md`.

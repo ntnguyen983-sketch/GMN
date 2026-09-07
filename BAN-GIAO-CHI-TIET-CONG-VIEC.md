@@ -76,6 +76,8 @@ Trong lần chạy tiếp theo, một thao tác UI nhập prompt bằng tọa đ
 
 **Không được tuyên bố setup đã PASS hoặc đã tạo SC-01/SH-001 MP4.** Tại thời điểm cập nhật, chưa có video generation output hợp lệ, chưa có ffprobe evidence và chưa được phép chuyển state sang `ASSET_QC`. Smallest failed unit hiện tại là `Prepare Environment` của Colab; không chạy cell `Generate Video` khi chưa có dòng hoàn tất.
 
+Ngày 2026-09-08, runtime T4 vẫn kết nối nhưng kiểm tra trực tiếp cho kết quả `DRIVE_EXISTS: False`, `TOP: NO_DRIVE`, `ALL_FILES: []`. Cell bypass Drive-to-ComfyUI đã chạy nhưng dừng có kiểm soát tại `FileNotFoundError: visual-target.png not found in mounted Drive`; chưa có bằng chứng mount Drive thành công, chưa copy được reference vào `/content/ComfyUI/input/`, chưa chạy inference và chưa có MP4. Đây là blocker môi trường/input mới, không phải lỗi screenplay hay continuity.
+
 ---
 
 ## 4. Toolchain và execution route tiếp theo
