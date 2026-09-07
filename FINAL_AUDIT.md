@@ -37,3 +37,7 @@ The deterministic assembly gate inspected the locked `SHOT_MANIFEST.json` and fo
 ## SH-002 generation interruption — 2026-09-07T23:05:49.238075+00:00
 
 The first SH-002 inference did not produce an artifact: Colab disconnected at its maximum duration. A controlled retry was initiated after reconnecting T4; the project remains NOT PASS.
+
+## SH-002 retry blocked by GPU quota — 2026-09-07T23:16:37.287487+00:00
+
+The first SH-002 run ended at the Colab maximum runtime before download. The controlled retry then hit Colab GPU usage limits before setup; no MP4 artifact exists. Final audit remains NOT PASS / BLOCKED.

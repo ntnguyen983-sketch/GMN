@@ -323,3 +323,7 @@ Checklist vận hành đầy đủ đã được tách thành `PRODUCTION-CHECKL
 - PASS: `SH-001` technical QC; assembly gate script; runbook/checklist
 - Pending: `SH-002`–`SH-076`, audio layers, subtitle sync, master QC
 - Next action: generate và QC `SH-002` theo locked manifest
+
+## Current execution note — 2026-09-07T23:16:37.287487+00:00
+
+SH-002 retry is blocked by Colab GPU usage limits. Do not mark PASS or continue to SH-003 until SH-002 is generated and QC-validated.

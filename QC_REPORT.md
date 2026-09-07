@@ -56,3 +56,7 @@ The locked manifests were validated locally: 19 scenes, 76 shots, and 600 second
 ## SH-002 attempt 1 — 2026-09-07T23:05:49.238075+00:00
 
 No MP4 was produced because the Colab runtime disconnected at the maximum session duration. Technical QC is not applicable; shot remains pending.
+
+## SH-002 retry checkpoint — 2026-09-07T23:16:37.287487+00:00
+
+No technical QC was run because Colab could not allocate a GPU backend. SH-002 remains pending.

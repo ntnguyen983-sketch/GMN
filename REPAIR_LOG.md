@@ -79,3 +79,7 @@ The assembly preflight was added as a deterministic guard. It prevents an invali
 ## SH-002 retry — 2026-09-07T23:05:49.238075+00:00
 
 Attempt 1 ended when Colab disconnected at its maximum runtime duration before output download. No artifact was accepted. Reconnected T4 and restarted only `Prepare Environment`; next action is to wait for setup PASS, then retry SH-002.
+
+## SH-002 GPU quota blocker — 2026-09-07T23:16:37.287487+00:00
+
+Controlled retry could not allocate a new GPU runtime: Colab displayed `Cannot connect to GPU backend` and cited usage limits. No generation was started and no artifact was accepted.
