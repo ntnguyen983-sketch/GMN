@@ -39,3 +39,7 @@ ALL_FILES: []
 ```
 
 The current Colab T4 kernel therefore does not have Google Drive mounted, despite the earlier session having attempted a mount. No reference was copied to `/content/ComfyUI/input/`, no inference ran, and no MP4, ffprobe evidence or checksum exists. Classification: `DRIVE_MOUNT_MISSING`; repair boundary is to mount Drive in the current kernel and verify the reference path before rerunning the bypass once. Do not claim generation success.
+
+## 2026-09-08 — Automated Drive scan attempted
+
+An automated Colab script was executed to mount Google Drive and recursively search `/content/drive/MyDrive/**` for files whose basename is `visual-target.png`. The notebook first displayed the Drive permission dialog; after the connection action, the cell failed at `drive.mount('/content/drive')` with `ValueError`. The scan therefore did not reach the filesystem search and produced no verified path. No file was copied to ComfyUI and no inference or MP4 was produced. Classification: `DRIVE_MOUNT_AUTH_FAIL`; next repair unit is completing the Google Drive authorization flow in the active Colab browser session, then rerunning the same deterministic scan once.
