@@ -2,6 +2,7 @@
   "project": "THE_WAR_OF_AI",
   "version": "1.0",
   "status": "ASSET_QC_PENDING",
+  "continuity_revision": "R2",
   "assets": [
     {
       "asset_id": "AST-REF-VISUAL-001",
@@ -9,10 +10,11 @@
       "source_tool": "manus-tools.generate_image",
       "scene_id": "SC-01",
       "shot_id": null,
-      "version": 1,
-      "status": "GENERATED",
+      "version": 2,
+      "status": "REGENERATED_R2",
       "dependencies": [],
-      "local_path": "/home/ubuntu/webdev-static-assets/the-war-of-ai/visual-target.png"
+      "local_path": "/home/ubuntu/webdev-static-assets/the-war-of-ai/visual-target.png",
+      "sha256": "1b34fa4b6a369a79f1a4a21514cb9bf3c4070fdd75f37f4b92c7186f554a3a7d"
     },
     {
       "asset_id": "AST-REF-CHAR-001",
@@ -20,12 +22,11 @@
       "source_tool": "manus-tools.generate_image",
       "scene_id": "SC-01",
       "shot_id": null,
-      "version": 1,
-      "status": "GENERATED",
-      "dependencies": [
-        "CHARACTER_BIBLE.md"
-      ],
-      "local_path": "/home/ubuntu/webdev-static-assets/the-war-of-ai/character-sheet.png"
+      "version": 2,
+      "status": "REGENERATED_R2",
+      "dependencies": ["CHARACTER_BIBLE.md"],
+      "local_path": "/home/ubuntu/webdev-static-assets/the-war-of-ai/character-sheet.png",
+      "sha256": "2a52ebdb4c772c7c80e184124b3bc8bb33d914a14d2dbdbe0629e5d432a9eccd"
     },
     {
       "asset_id": "AST-REF-WORLD-001",
@@ -33,13 +34,12 @@
       "source_tool": "manus-tools.generate_image",
       "scene_id": "SC-01",
       "shot_id": null,
-      "version": 1,
-      "status": "GENERATED",
-      "dependencies": [
-        "WORLD_BIBLE.md"
-      ],
-      "local_path": "/home/ubuntu/webdev-static-assets/the-war-of-ai/world-sheet.png"
+      "version": 2,
+      "status": "REGENERATED_R2",
+      "dependencies": ["WORLD_BIBLE.md"],
+      "local_path": "/home/ubuntu/webdev-static-assets/the-war-of-ai/world-sheet.png",
+      "sha256": "657a8d407bd410888ec8bb30da973e33a8c1976e13223863bbfd6054e34b6b39"
     }
   ],
-  "generation_blocker": "Video generation tool rejected preview: user does not have access; upgrade to Basic, Plus or Pro."
+  "generation_blocker": "Video generation tool rejected preview before MP4 creation; regenerated reference assets do not remove the video capability blocker."
 }
